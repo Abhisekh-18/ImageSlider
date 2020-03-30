@@ -5,12 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="7dp"
-        app:cardCornerRadius="7dp"
+        app:cardCornerRadius="10dp"
         tools:ignore="UselessParent">
 
         <androidx.viewpager.widget.ViewPager

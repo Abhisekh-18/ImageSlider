@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ArrayList<SlidingModel> populateList() {
         ArrayList<SlidingModel> list = new ArrayList<>();
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 16; i++) {
             SlidingModel imageModel = new SlidingModel();
             imageModel.setImage_drawable(myImageList[i]);
             list.add(imageModel);
